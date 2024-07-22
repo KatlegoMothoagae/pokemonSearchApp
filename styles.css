@@ -77,6 +77,10 @@ main{
 }
 
 .stat-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
     border: 1px solid black;
     width: 100%;
     /*margin-left: 10px;*/
@@ -95,6 +99,10 @@ h1{
     width: 150px;
     background-color: darkslategray;
 
+}
+p{
+    border: 1px solid red;
+    margin: 0;
 }
 #pokemon-info{
     /*background-color: #0a0a23;*/
@@ -117,5 +125,8 @@ h1{
 
     height: 50px;
     width: 100px;
-    background-color: black;
+    background-color: white;
+}
+#pokemon-id, #pokemon-name, #weight, #height{
+    display: inline-block;
 }

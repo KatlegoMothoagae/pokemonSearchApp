@@ -28,13 +28,9 @@ async function showPokemon(){
         name.textContent = pokemonData.name.toUpperCase();
         id.textContent = pokemonData.id;
 
-        weight.textContent = pokemonData.weight;
-        height.textContent = pokemonData.height;
+        weight.textContent = "Weight: " +pokemonData.weight;
+        height.textContent = "Height: " + pokemonData.height;
 
-
-
-        // nameAndId.innerText = pokemonData.name.toUpperCase() + "  #" +pokemonData.id;
-        weightAndHeight.innerText = "Weight: " + pokemonData.weight + " Height: " + pokemonData.height;
         setImage(pokemonData)
         setStats(pokemonData);
         setTypes(pokemonData);

@@ -3,6 +3,7 @@ body{
     background-color: midnightblue;
     color: #0a0a23;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
 }
 label{
     display: block;
@@ -12,6 +13,10 @@ input{
     width: 220px;
     height: 35px;
     padding-left: 10px;
+    border: 1px solid #ccc;
+}
+button{
+    height: 35px;
 }
 main{
 
@@ -23,6 +28,7 @@ main{
 #container{
     background-color: red;
     width: 500px;
+    min-height: 1000px;
     height: 100vh;
 }
 #pokemon-header{
@@ -51,23 +57,65 @@ main{
     /*padding-bottom: 0px;*/
 }
 #pokemon-container{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 50%;
     border: 1px solid black;
 }
 #stats{
+    margin: 20px;
     display: grid;
     grid-template-columns: auto 40%;
     gap: 5px;
     background-color: darkslategray;
     border: 1px red solid;
-    height: 55%;
+    height: 34%;
 }
 
 .stat-block{
     border: 1px solid black;
+    width: 100%;
+    /*margin-left: 10px;*/
+    /*margin-right: 20px;*/
 }
 
 h1{
     color: #f5f6f7;
     font-size: 35px;
+}
+#pokemonImg{
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: darkslategray;
+
+}
+#pokemon-info{
+    /*background-color: #0a0a23;*/
+    width: 100%;
+
+}
+
+#type-container{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    gap: 5px;
+    width: 100%;
+    background-color: darkslategray;
+    height: 60px;
+    margin-top: 110px;
+}
+.type{
+
+    height: 50px;
+    width: 100px;
+    background-color: black;
 }

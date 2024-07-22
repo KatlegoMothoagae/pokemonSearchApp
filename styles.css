@@ -1,8 +1,17 @@
 body{
     margin: 0;
+    background-color: midnightblue;
+    color: #0a0a23;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 label{
     display: block;
+    font-size: 20px;
+}
+input{
+    width: 220px;
+    height: 35px;
+    padding-left: 10px;
 }
 main{
 
@@ -21,8 +30,11 @@ main{
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: midnightblue;
+    /*background-color: midnightblue;*/
 
+}
+#inputs{
+    padding: 10px;
 }
 #logo-container{
     display: flex;
@@ -53,4 +65,9 @@ main{
 
 .stat-block{
     border: 1px solid black;
+}
+
+h1{
+    color: #f5f6f7;
+    font-size: 35px;
 }

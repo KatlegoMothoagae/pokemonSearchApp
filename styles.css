@@ -13,7 +13,7 @@ main{
 }
 #container{
     background-color: red;
-    width: 400px;
+    width: 500px;
     height: 100vh;
 }
 #pokemon-header{
@@ -39,12 +39,13 @@ main{
     /*padding-bottom: 0px;*/
 }
 #pokemon-container{
-    height: 40%;
+    height: 50%;
     border: 1px solid black;
 }
 #stats{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 40%;
+    gap: 5px;
     background-color: darkslategray;
     border: 1px red solid;
     height: 55%;

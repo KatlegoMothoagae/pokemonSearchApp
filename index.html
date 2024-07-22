@@ -3,37 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
     <div id="logo-container">
-        <img src="pokemon-svgrepo-com.svg">
+        <img id="logo" src="pokemon-svgrepo-com.svg">
     </div>
 </header>
 <main>
     <h1>Pokémon Search App</h1>
     <div id="container">
-        <label for="search-input">Search for Pokémon Name or ID:</label>
-        <input type="text" id="search-input" required>
-        <button id="search-button" onclick="showPokemon()">show pokemon</button>
+        <div id="pokemon-header">
+            <label for="search-input">Search for Pokémon Name or ID:</label>
+            <div>
+                <input type="text" id="search-input" required>
+                <button id="search-button" onclick="showPokemon()">show pokemon</button>
+            </div>
+            </div>
         <div id="pokemon-container">
 
         </div>
         <div id="stats">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
+            <div class="stat-block"></div>
         </div>
         <script src="script.js"></script>
     </div>

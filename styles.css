@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+label{
+    display: block;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#container{
+    background-color: red;
+    width: 400px;
+    height: 100vh;
+}
+#pokemon-header{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: midnightblue;
+
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+    background-color: rebeccapurple;
+    height:140px;
+    /*width: 120px;*/
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+#logo{
+    background-color: beige;
+    border: 1px red solid;
+    /*padding-bottom: 0px;*/
+}
+#pokemon-container{
+    height: 40%;
+    border: 1px solid black;
+}
+#stats{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: darkslategray;
+    border: 1px red solid;
+    height: 55%;
+}
+
+.stat-block{
+    border: 1px solid black;
+}
